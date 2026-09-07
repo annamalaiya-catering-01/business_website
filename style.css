@@ -72,6 +72,12 @@ input,textarea,select{font-family:inherit;font-size:1rem;}
 
 /* ---------- section rhythm ---------- */
 section{padding:88px 0;position:relative;}
+@media (max-width:640px){
+  section{padding:64px 0;}
+  .services-teaser,.services-list{padding-top:36px;padding-bottom:36px;}
+  .services-teaser .section-head{margin-bottom:28px;}
+}
+
 @media (max-width:640px){section{padding:64px 0;}}
 .section-head{max-width:640px;margin-bottom:48px;}
 .section-head.center{margin-left:auto;margin-right:auto;text-align:center;}
